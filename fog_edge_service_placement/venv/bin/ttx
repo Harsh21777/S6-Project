@@ -1,0 +1,6 @@
+#!/home/harsh/Fog_Edge_Service_Placement/fog_edge_service_placement/venv/bin/python
+import sys
+from fontTools.ttx import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
